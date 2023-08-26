@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'pybot11'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3E566AF565BB42F999BE46A970BD197C }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D20D696DAA8A4106B6DC12FF7ED4D3E8 }}
