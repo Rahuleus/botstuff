@@ -28,4 +28,6 @@ async def on_message(message):
 #getting the secret token
 f = open("demofile", "r")
 n=(f.read())
+n= n[:len(n)-1]
+print(n)
 client.run(n)
